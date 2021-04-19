@@ -1,0 +1,50 @@
+body{
+				margin: 0;
+				padding: 0;
+			}
+
+			#menu ul{
+					margin: 0;
+					background-color: #20707a;
+					list-style: none;
+					text-align: center;	
+			}
+
+			#menu li{
+					display: inline;
+
+			}
+
+			#menu ul li a{
+					padding: 10px 10px;
+					display: inline-block; 
+					color: white;
+					text-decoration: none;
+
+			}
+
+			#menu ul li a:hover{
+				color: #aee3ea;
+			}
+
+			body, html{
+				height: 100%;
+				margin: 0;
+			}
+
+			.bg{
+				background-image: url("Imagens/background.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+			}
+
+			#logo{
+				background-image: url(Imagens/Logo.png);
+				position: absolute;
+				width: 279px;
+				height: 150px;
+				left: 0px;
+				top: 55px;
+			}
