@@ -125,8 +125,22 @@ body{
     }
 }
 			.rodape{
+				list-style: none;
 				text-decoration: none; 
 				position: absolute;
 				left: 1090px;
-				top: 600px;
+				top: 590px;
+			}
+
+			.icone-email{
+				
+				background-image: url(Imagens/icone-email);
+				height: 25px;
+				padding-right: 5px;
+				padding-top: 20px;
+			}
+
+			a[href^=”tel:”]:before {
+    			content: “\260E”;
+    			margin-right: 0.5em;
 			}
