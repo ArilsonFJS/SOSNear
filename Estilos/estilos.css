@@ -3,19 +3,19 @@ body{
 				padding: 0;
 			}
 
-			#menu ul{
+			.menu ul{
 					margin: 0;
 					background-color: #20707a;
 					list-style: none;
 					text-align: center;	
 			}
 
-			#menu li{
+			.menu li{
 					display: inline;
 
 			}
 
-			#menu ul li a{
+			.menu ul li a{
 					padding: 10px 10px;
 					display: inline-block; 
 					color: white;
@@ -23,7 +23,7 @@ body{
 
 			}
 
-			#menu ul li a:hover{
+			.menu ul li a:hover{
 				color: #aee3ea;
 			}
 
@@ -122,13 +122,5 @@ body{
     			100% {
        				opacity: 1;
         			transform: translateY(0px);
-    }
-
-    #rodape{
-    		position: absolute;
-				width: 50px;
-				height: 50px;
-				left: 0px;
-				top: 20px;
     }
 }
