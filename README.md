@@ -7,7 +7,7 @@
 - Vitória Caroline
 
 ## Arquivos
-- [Protótipos do sistema]([PI.pdf](/uploads/d0dffb12e999f23ffd7cb7be360a9f08/PI.pdf)
+- [Protótipos do sistema](https://gitlab.com/pi-usabilidade-2021/sos-near/-/blob/master/PI.pdf)
 - [Tema](https://gitlab.com/pi-usabilidade-2021/sos-near/-/blob/master/tema-objetivos.md)
 
 
