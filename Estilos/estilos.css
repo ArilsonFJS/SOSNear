@@ -134,6 +134,14 @@ body{
 				top: 570px;
 			}
 
+			.icone-login{
+				height: 20px;
+				padding-right: 2px;
+				padding-left: 280px;
+				padding-top: 8px;
+
+			}
+
 			.icone-email{
 				padding-right: 5px;
 				padding-top: 15px;
@@ -145,4 +153,11 @@ body{
 				height: 15px;
 			}
 
-			
+			#link-login{
+				padding-left: 0px; 
+				color: ;
+			}
+
+			#link-inicio{
+				padding-left: 300px;
+			}
