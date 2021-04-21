@@ -40,8 +40,7 @@ body{
 				background-attachment: fixed;
 			}
 
-			#logo{
-				background-image: url(Imagens/Logo.png);
+			#logo-topo{
 				position: absolute;
 				width: 279px;
 				height: 150px;
@@ -124,6 +123,7 @@ body{
         			transform: translateY(0px);
     }
 }
+
 			.rodape{
 				list-style: none;
 				text-decoration: none; 
@@ -133,14 +133,14 @@ body{
 			}
 
 			.icone-email{
-				
-				background-image: url(Imagens/icone-email);
-				height: 25px;
 				padding-right: 5px;
-				padding-top: 20px;
+				height: 15px;
 			}
 
-			a[href^=”tel:”]:before {
-    			content: “\260E”;
-    			margin-right: 0.5em;
+			.icone-telefone{
+				padding-right: 5px;
+				padding-top: 6px;
+				height: 15px;
 			}
+
+			
