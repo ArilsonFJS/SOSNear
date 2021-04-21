@@ -42,10 +42,12 @@ body{
 
 			#logo-topo{
 				position: absolute;
-				width: 279px;
-				height: 150px;
-				left: 0px;
 				top: 55px;
+			}
+
+			#logo-rodape{
+				position: absolute;
+				top: 500px;
 			}
 
 			body {
@@ -128,18 +130,18 @@ body{
 				list-style: none;
 				text-decoration: none; 
 				position: absolute;
-				left: 1090px;
-				top: 590px;
+				left: 1070px;
+				top: 570px;
 			}
 
 			.icone-email{
 				padding-right: 5px;
+				padding-top: 15px;
 				height: 15px;
 			}
 
 			.icone-telefone{
 				padding-right: 5px;
-				padding-top: 6px;
 				height: 15px;
 			}
 
