@@ -45,9 +45,10 @@
     }
     
     #logo-rodape {
-        /*  position: absolute;*/
+        left: 3px;
+        list-style: none;
+        position: absolute;
         top: 5px;
-        align-items: initial;
     }
     
     body {
@@ -124,12 +125,23 @@
             transform: translateY(0px);
         }
     }
-    
-    .rodape {
+
+
+    .rodape ul {
         list-style: none;
+    }
+    .rodape ul li a {
         text-decoration: none;
-        position: absolute;
-        border: 5px solid rgba(188, 215, 166, 1);
+    }
+
+    .rodape {
+        padding-top: 50px;
+        top: 500px;
+        left: 20px;
+        right: 20px;
+        position: fixed;
+        border-style: double;
+        border-color: #4169E1;
     }
     
     .rodape a {
@@ -144,12 +156,14 @@
     }
     
     .icone-email {
+        padding-left: 1040px;
         padding-right: 5px;
         padding-top: 15px;
         height: 15px;
     }
     
     .icone-telefone {
+        padding-left: 1040px;
         padding-right: 5px;
         height: 15px;
     }
