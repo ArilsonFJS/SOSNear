@@ -1,0 +1,21 @@
+<div class="text-box">
+    <a href="/usuarios/registro" class="btn btn-white btn-animate">CADASTRAR</a>
+</div>
+<h2>Postagens recentes</h2>
+
+{{#each postagens}}
+<div class="card mt-2">
+    <div class="card-body">
+        <h3>{{titulo}}</h3>
+        <p>{{descricao}}</p>
+        <small>{{conteudo}}</small> <br>
+        <a href="/postagem/{{slug}}"> <button class="btn btn-success mt-3">Leia mais</button> </a>
+        <hr>
+        <small>Categoria: {{categoria.nome}}</small> <br>
+        <small>Data de publicação: {{data}}</small>
+    </div>
+</div>
+
+{{else}}
+<h5>Não há postagem</h5>
+{{/each}}
