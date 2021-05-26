@@ -214,6 +214,8 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+
+
 pre,
 code,
 kbd,
@@ -3829,10 +3831,11 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #0d6efd;
+  color: #f7f7f7;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
@@ -3881,7 +3884,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link {
   background: none;
   border: 0;
-  border-radius: 0.25rem;
+  border-radius: 0.50rem;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -4205,10 +4208,10 @@ textarea.form-control-lg {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgb(247, 239, 239);
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(19, 18, 18, 0.75);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
@@ -6063,8 +6066,7 @@ body {
 }
 
 .text-box {
-  margin-left: 80vw;
-  margin-top: 10vh;
+  margin-left: 60vw;
 }
 
 .btn:link,
@@ -6173,12 +6175,10 @@ body {
   height: 15px;
 }
 
-#link-login {
-  padding-left: 0px;
-}
+
 
 #link-inicio {
-  padding-left: 300px;
+  padding-left: 50rem;
 }
 
 
