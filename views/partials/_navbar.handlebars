@@ -11,7 +11,7 @@
           <a class="nav-link" id="link-inicio" href="#">
             <h3>Quem somos</h3>
           </a>
-        </li> 
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="#">
             <h3>SUS</h3>
@@ -28,13 +28,20 @@
           </a>
         </li>
 
+        <li class="nav-item ">
+          {{#if user}}
+          <p>Olá, {{user.nome}}!</p>
+          <a class="nav-link" href="/usuarios/logout">
+            <p> Logout </p>
+          </a>
+          {{else}}
         <li class="nav-item">
           <img class="icone-login mt-0" src="/img/icone-login.png">
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id="link-login" href="/usuarios/login">
-            <h4> Login </h4>
-          </a>
+        <a class="nav-link" id="link-login" href="/usuarios/login">
+          <h4> Login </h4>
+        </a>
+        {{/if}}
         </li>
       </ul>
     </div>
