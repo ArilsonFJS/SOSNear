@@ -6,6 +6,45 @@ const Usuario = mongoose.model("usuarios")
 const bcrypt = require("bcryptjs")
 const passport = require('passport')
 
+function isValidCPF(cpf) {
+    if (typeof req.body.cpf !== "string") {
+        return false
+    } else {
+        req.body.cpf = req.body.cpf.replace(/[\s.-]*/igm, '')
+    }
+
+    if (
+        !req.body.cpf ||
+        req.body.cpf.length != 11 ||
+        req.body.cpf == "00000000000" ||
+        req.body.cpf == "11111111111" ||
+        req.body.cpf == "22222222222" ||
+        req.body.cpf == "33333333333" ||
+        req.body.cpf == "44444444444" ||
+        req.body.cpf == "55555555555" ||
+        req.body.cpf == "66666666666" ||
+        req.body.cpf == "77777777777" ||
+        req.body.cpf == "88888888888" ||
+        req.body.cpf == "99999999999"
+    ) {
+        return false
+    }
+    var soma = 0
+    var resto
+    for (var i = 1; i <= 9; i++)
+        soma = soma + parseInt(req.body.cpf.substring(i - 1, i)) * (11 - i)
+    resto = (soma * 10) % 11
+    if ((resto == 10) || (resto == 11)) resto = 0
+    if (resto != parseInt(req.body.cpf.substring(9, 10))) return false
+    soma = 0
+    for (var i = 1; i <= 10; i++)
+        soma = soma + parseInt(req.body.cpf.substring(i - 1, i)) * (12 - i)
+    resto = (soma * 10) % 11
+    if ((resto == 10) || (resto == 11)) resto = 0
+    if (resto != parseInt(req.body.cpf.substring(10, 11))) return false
+    return true
+}
+
 router.get("/registro", (req, res) => {
     res.render("usuarios/registro")
 })
@@ -20,6 +59,17 @@ router.post("/registro", (req, res) => {
     if (!req.body.email || typeof req.body.email == undefined || req.body.email == null) {
         erros.push({ texto: "E-mail inválido" })
     }
+
+    if (!req.body.cpf || typeof req.body.cpf == undefined || req.body.cpf == null) {
+        erros.push({ texto: "CPF inválido" })
+    }
+
+    let cpf = req.body.cpf
+
+    if (isValidCPF(req.body.cpf) == false) {
+        erros.push({ texto: "CFP inválido" })
+    }
+
 
     if (!req.body.senha || typeof req.body.senha == undefined || req.body.senha == null) {
         erros.push({ texto: "Senha inválida" })
@@ -44,7 +94,8 @@ router.post("/registro", (req, res) => {
                 const newUsuario = new Usuario({
                     nome: req.body.nome,
                     email: req.body.email,
-                    senha: req.body.senha
+                    senha: req.body.senha,
+                    cpf: req.body.cpf
                 })
 
                 bcrypt.genSalt(10, (erro, salt) => {
