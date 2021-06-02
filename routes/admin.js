@@ -74,6 +74,8 @@ router.get("/categorias/edit/:id", eAdmin, (req, res) => {
     })
 })
 
+
+
 router.post("/categorias/edit", eAdmin, (req, res) => {
     var erros = []
 
