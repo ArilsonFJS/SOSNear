@@ -195,7 +195,7 @@ router.post("/edit", (req, res) => {
     }
 
     if (erros.length > 0) {
-        res.render("/editusuario", { erros: erros })
+        res.render("usuarios/editusuario", { erros: erros })
     } else {
         Usuario.findOne({ _id: req.body.id }).then((usuario) => {
             usuario.nome = req.body.nome
