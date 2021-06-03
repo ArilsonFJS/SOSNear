@@ -13,6 +13,11 @@ require("./models/Categoria");
 const Categoria = mongoose.model("categorias");
 const usuarios = require("./routes/usuario");
 const passport = require('passport');
+
+const csv = require('csv-parser')
+const fs = require('fs')
+const result = [];
+
 require("./config/auth")(passport)
 // const bodyParser = require('body-parser') - substituido por express
 
@@ -123,6 +128,28 @@ app.get('/categorias/:slug', (req, res) => {
         res.redirect("/")
     })
 })
+
+
+//página que carrega os dados
+/*app.get('usuarios/listCoord', (request, reponse) =>{
+    if(listCoord == 0){
+    lerArquivo();
+    }
+    reponse.status(200).json(listCoord);
+})
+
+let listCoord = [];
+
+function lerArquivo(){
+    fs.createReadStream("files/data.csv")//passar o endereço do arquivo
+    .on('error', () =>{})
+    .pipe(csv({}))
+    .on('data',(row) => listCoord.push(row))
+    .on('end', () =>{
+        console.log('terminou')
+    });
+}*/
+
 
 app.use('/admin', admin)
 app.use("/usuarios", usuarios)

@@ -44,6 +44,27 @@
   }
 }
 
+#covid19 {
+  color:#055160;
+  text-align: center;
+  font-size: 140%;
+  
+}
+
+#carregar {
+  background-color: #055160;
+  color:var(--bs-light);
+  text-align: center;
+  margin-left: 47%;
+}
+
+#mapa {
+  margin: auto;
+  width: 900px;
+  height: 450px;
+
+}
+
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);

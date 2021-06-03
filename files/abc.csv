@@ -1,0 +1,279 @@
+id,lat,lon,name,address,capacity
+1,-23.5668309564,-46.6937412023,1 - Largo da Batata,Av. Brigadeiro Faria Lima,55
+3,-23.5664776215,-46.7012582819,3 - CPTM Pinheiros,R. Gilberto Sabino,15
+4,-23.5691446194,-46.6920025786,4 - Rua Diogo Moreira,Rua Diogo Moreira,23
+5,-23.5698942495,-46.6978971887,5 - Rua Butantã,Travessa da R. Butantã,15
+6,-23.5721366374,-46.6901067804,6 - Rua Manduri,Rua Manduri,19
+7,-23.5725441757,-46.6936810045,7 - Praça Joaquim Roberto,Av. Rebouças,19
+9,-23.5756108964,-46.6873608611,9 - R. Grécia,R. Grécia,23
+10,-23.575527706,-46.6907136107,10 - Rua Campo Verde,Rua Campo Verde,15
+11,-23.5655687544,-46.6942387103,11 - Praça Faria Lima,Rua Cardeal Arcoverde / esquina com Av. Brigadeiro Faria Lima,19
+12,-23.5661641537,-46.6939591666,12 - Largo de Batata II,Largo de Batata II,65
+13,-23.5795958801,-46.6906372471,13 - Esporte Clube Pinheiros Funcionários,R. Angelina Maffei Vita,23
+14,-23.580880233,-46.6847086016,14 - Casa Brasileira,Casa Brasileira,17
+15,-23.5824196172,-46.6870353144,15 - Rua Prof. Artur Ramos,Rua Professor Artur Ramos,19
+16,-23.5823017032,-46.6912872948,16 - Esporte Clube Pinheiros Boliche,R. Hans Nobiling,19
+17,-23.5843221298,-46.6829077712,17 - Rua José Gonçalves de Oliveira,R. José Gonçalves de Oliveira,23
+18,-23.586695721,-46.6839182197,18 - Itaú Faria Lima,18 - Itaú Faria Lima,23
+19,-23.5957237516,-46.6907050831,19 - Av. Dr. Cardoso de Melo,R. Funchal,15
+20,-23.585020293,-46.6904367894,20 - CPTM Cidade Jardim,20 - CPTM Cidade Jardim,19
+21,-23.5890444167,-46.6882179129,21 - Parque do Povo portão 1,Av. Henrique Chamma,23
+22,-23.5892048894,-46.6839228126,22 - Rua Leopoldo Couto,Rua Leopoldo Couto de Magalhães Junior,15
+23,-23.5939175701,-46.6912681159,23 - CPTM Vila Olímpia,Rua Gomes de Carvalho,47
+24,-23.592664614,-46.6880574172,24 - Rua Funchal,Rua Funchal,23
+25,-23.59276255,-46.6844661081,25 - Rua Helena,Rua Helena,23
+26,-23.5954418983,-46.683199943,26 - Praça Pierre Germayel,26 - Praça Pierre Germayel,23
+27,-23.5924297095,-46.6811213477,27 - Rua Min. Jesuíno Cardoso,Rua Ministro Jesuíno Cardoso,43
+28,-23.5933504144,-46.6770266849,28 - Rua Comendador Miguel Calfat,Rua Comendador Miguel Calfat,15
+29,-23.5903425804,-46.6783454354,29 - Rua João Franco,Rua João Franco,15
+30,-23.5902983609,-46.673776506,30 - Bandeira Paulista,Rua Bandeira Paulista em frente ao número 1237 / esquina com Rua Dr. Alceu de Campos Rodrigues,19
+31,-23.5916323121,-46.6713637578,31 - Jacques Felix,Jacques Felix,11
+32,-23.5904191029,-46.665915544,32 - Pq. Ibirapuera Portão 07,Pq. Ibirapuera Portão 07,11
+33,-23.5880294813,-46.6654595025,33 - Pq. Ibirapuera Portão 08,33 - Pq. Ibirapuera Portão 08,11
+34,-23.5885076055,-46.6681464248,34 - Rua Bastos Pereira,34 - Rua Bastos Pereira,11
+35,-23.58728803,-46.6730159472,35 - Rua Benedito Lapin,Rua Benedito Lapin em frente ao número 81 / esquina com Rua Dr. Renato Paes de Barros,23
+36,-23.5867932793,-46.6760816781,36 - E.E. Aristides de Castro,Rua Urussuí,23
+37,-23.5876426356,-46.6791253559,37 - Edifício Infinity,37 - Edifício Infinity,23
+38,-23.5852228977,-46.6801605529,38 - Viradouro,Rua Viradouro,19
+40,-23.5836480572,-46.672067696,40 - Brasília,Rua Brasília,11
+41,-23.5818348417,-46.6697164152,41 - Paróquia São Gabriel,41 - Paróquia São Gabriel,15
+42,-23.5822318027,-46.6672069622,42 - Hotel Unique,42 - Hotel Unique,23
+43,-23.5855232692,-46.6557961107,44 - Pq. Ibirapuera Portão 09,44 - Pq. Ibirapuera Portão 09,11
+44,-23.5786981592,-46.6601881481,45 - Marechal Bitencourt,45 - Marechal Bitencourt,23
+45,-23.578748203,-46.6634207818,46 - Rua General Fonseca Telles,46 - Rua General Fonseca Telles,11
+47,-23.5787313776,-46.6705247776,47 - Suzano,47 - Suzano,11
+48,-23.5795039034,-46.6732522005,48 - Itacema,"Rua Itacema, 239",15
+49,-23.5815023602,-46.6777671483,49 - Tapinás,Rua Tapinás / esquina com Rua Pedroso Alvarenga,15
+50,-23.5825417631,-46.6804310364,50 - Rua Professor Carlos de Carvalho,50 - Rua Professor Carlos de Carvalho,17
+51,-23.5770014994,-46.6801882751,51 - Praça Luiz Delben Junior,51 - Praça Luiz Delben Junior,11
+53,-23.5871323494,-46.6820977166,53 -Google São Paulo,53 -Google São Paulo,15
+54,-23.5732700073,-46.681333784,54 - Colégio Madre Alix,Colégio Madre Alix,11
+55,-23.5699246533,-46.6804528505,55 - Jacupiranga,55 - Jacupiranga,11
+56,-23.5687276388,-46.6778758266,56 - Atlântica,Atlântica,11
+57,-23.5707391,-46.6759698,57 - Groelândia,57 - Groelândia,11
+58,-23.5736335642,-46.6769193669,58 - Mube,58 - Mube,11
+59,-23.5561973683,-46.6926703781,59 - EBAC,59 - EBAC,19
+60,-23.5739665694,-46.6694755435,60 - Clube Harmonia,60 - Clube Harmonia,11
+61,-23.5673912873,-46.6733436093,61 - Venezuela,61 - Venezuela,11
+62,-23.5713455,-46.6703347,62 - Equador,62 - Equador,11
+63,-23.5685869227,-46.6691871436,63 - Club Athletico Paulistano,63 - Club Athletico Paulistano,11
+64,-23.5758416942,-46.6680606949,64 - Maestro Elias Lobo,"Rua - Maestro Elias Lobo, em frente ao número 691 / esquina com Rua Espéria",11
+65,-23.5754105315,-46.6641278938,65 - Rua Dr. João Pinheiro,"65 - Rua Dr. João Pinheiro, oposto ao número 507",11
+66,-23.5754367836,-46.6616932589,66 - Praça Domingos Delascio,66 - Praça Domingos Delascio,15
+67,-23.5733045145,-46.6628389694,67 - Maestro Chiafarelli,67 - Maestro Chiafarelli,15
+68,-23.5703822523,-46.6647314847,68 - Praça Nicolau Scarpa,68 - Praça Nicolau Scarpa,15
+69,-23.5657634935,-46.6660490875,69 - Oscar Freire,Oscar Freire,11
+70,-23.5681742381,-46.6622287194,70 - Alameda Casa Branca,Alameda Casa Branca,15
+71,-23.5699175976,-46.6596995408,71 - Pamplona,71 - Pamplona,15
+72,-23.5727335213,-46.6586038186,72 - Queluz,72 - Queluz,15
+73,-23.5770321441,-46.6564518397,73 - Ginásio Ibirapuera,73 - Ginásio Ibirapuera,11
+74,-23.5801537883,-46.6562492364,74 – Círculo Militar,Círculo Militar,14
+75,-23.5803036309,-46.6504327496,75 - Viaduto Tutóia,75 - Viaduto Tutóia,11
+76,-23.5742984596,-46.6540400716,76 - 8° Batalhão,76 - 8° Batalhão,15
+77,-23.5703896419,-46.6553101677,77 - Alameda j. Eugênio de Lima,Alameda j. Eugênio de Lima,11
+78,-23.5684717777,-46.655978232,78 - Alameda Franca,78 - Alameda Franca,15
+79,-23.5663420998,-46.660204923,79 - R. José Maria Lisboa,79 - R. José Maria Lisboa,15
+80,-23.5645177063,-46.6569662424,80 - Praça Alexandre de Gusmão,Praça Alexandre de Gusmão,17
+81,-23.5626283367,-46.6609614826,81 - Colégio Dante Alighieri,81 - Colégio Dante Alighieri,15
+82,-23.564399618,-46.6622156369,82- Alameda Min. Rocha Azevedo,82- Alameda Min. Rocha Azevedo,15
+83,-23.5628359126,-46.6649115916,83- Augusta,83- Augusta,15
+85,-23.555919,-46.66278,85 – Praça do Ciclista,Praça do Ciclista,14
+86,-23.5584250063,-46.659609826,86 – Shopping Center 3,86 – Shopping Center 3,19
+87,-23.5597449734,-46.6580926175,87 – Praça Prefeito Mario Covas,87 – Praça Prefeito Mario Covas,23
+89,-23.555919,-46.66278,89 – Alameda Rio Claro,89 – Alameda Rio Claro,23
+90,-23.564572875,-46.6523898407,90 – Alameda Campinas,90 – Alameda Campinas,22
+91,-23.5662497091,-46.6504363825,91 – Paulista 778,91 – Paulista 778,10
+92,-23.5681059122,-46.6486743524,92 – Metrô Brigadeiro,92 – Metrô Brigadeiro,15
+93,-23.5666631176,-46.6454074049,93 – R. Carlos Sampaio,93 – R. Carlos Sampaio,15
+94,-23.5685259784,-46.6520477892,94 - Alameda Jaú,94 - Alameda Jaú,15
+95,-23.5681587221,-46.6489777697,95 - Metrô Brigadeiro,Metrô Brigadeiro,11
+96,-23.5738230003,-46.651414485,96 - Tutóia,96 - Tutóia,11
+98,-23.5746339052,-46.6484547328,98 – Sampaio Viana,98 – Sampaio Viana,15
+99,-23.5774807834,-46.6471689909,99 - R. Tomás Carvalhal,99 - R. Tomás Carvalhal,15
+100,-23.5704392402,-46.6458343207,100 - Itaú Cultural,100 - Itaú Cultural,11
+101,-23.6049435588,-46.6949615663,101 -  Praça Gen. Gentil Falcão,101 -  Praça Gen. Gentil Falcão,11
+102,-23.6118685865,-46.6949533296,102 - Rua James Watt,102 - Rua James Watt,23
+103,-23.6089863999,-46.6944769361,103 - Rua Hans Oerted,103 - Rua Hans Oerted,23
+105,-23.6023654923,-46.6921505751,105 - Praça João Duram Alonso,105 - Praça João Duram Alonso,19
+106,-23.6090278764,-46.6916217997,106 - Rua Florida,106 - Rua Florida,15
+107,-23.6076225616,-46.688361449,107 - Rua Indiana,107 - Rua Indiana,11
+108,-23.6012468053,-46.6923502602,108 - Praça Prof. José Lannes,108 - Praça Prof. José Lannes,7
+109,-23.6034624686,-46.6925864306,109 - Praça Oswaldo Varella,109 - Praça Oswaldo Varella,19
+110,-23.6073571437,-46.6940207691,110 - Flórida 1670,110 - Flórida 1670,15
+111,-23.6104217531,-46.6960291624,111 - Edward Weston,111 - Edward Weston,19
+112,-23.6121427531,-46.6957413582,112 - R. Lee de Forest,112 - R. Lee de Forest,15
+113,-23.6039010735,-46.6769891688,113 - Rua Andrade Pertence,Rua Andrade Pertence,11
+114,-23.6013159109,-46.6817056467,114 - Rua Alvorada,114 - Rua Alvorada,15
+115,-23.6001574647,-46.6894766023,115 - Praça Procopio Ferreira,Praça Procopio Ferreira,19
+116,-23.5993155583,-46.6871809639,116 - Praça Dr. Francisco Patti,116 - Praça Dr. Francisco Patti,15
+117,-23.5966593672,-46.6865907226,117 - Cubo Itaú,117 - Cubo Itaú,23
+118,-23.5977973921,-46.6840348376,118 - Rua Júlio Diniz,118 - Rua Júlio Diniz,19
+119,-23.5970325358,-46.6804311376,119 - Rua Quatá,119 - Rua Quatá,11
+120,-23.5997736418,-46.6795527222,120 - Rua Gomes de Carvalho,Rua Gomes de Carvalho,15
+121,-23.5978131886,-46.6776630782,121 - Insper,121 - Insper,23
+122,-23.6006795982,-46.6754248187,122 - Rua Baluarte,122 - Rua Baluarte,15
+123,-23.5945372856,-46.6736972021,123 - Rua Egito,123 - Rua Egito,15
+124,-23.5940306201,-46.6692773589,124 - Praça PereIra Coutinho,Praça PereIra Coutinho,11
+125,-23.597229667,-46.6716583619,125 - Natividade,125 - Natividade,10
+126,-23.6013401704,-46.6711916348,126 - Graúna,Graúna,11
+127,-23.6003698246,-46.6689210203,127 - Jacutinga,127 - Jacutinga,11
+128,-23.5965496425,-46.6665456773,128 - R. Sampaio Góis,128 - R. Sampaio Góis,19
+129,-23.599832,-46.666141,129 - Sabiá,Sabiá,11
+130,-23.5958044965,-46.6630082901,130 – Menotti Del Pecchia,130 – Menotti Del Pecchia,23
+131,-23.5934574009,-46.6593627344,131 - Pq. Ibirapuera Portão 06,131 - Pq. Ibirapuera Portão 06,11
+132,-23.5921163887,-46.6553996394,132 - Pq. Ibirapuera Portão 05,132 - Pq. Ibirapuera Portão 05,11
+133,-23.5946168878,-46.6549765176,133 - Avenida Ibirapuera,133 - Avenida Ibirapuera,11
+137,-23.5941970433,-46.6867928228,137 - Rua do Rocio,137 - Rua do Rocio,23
+138,-23.5936014852,-46.6800723303,138 - Chilon,138 - Chilon,23
+140,-23.5907483495,-46.688863188,140 - JK Iguatemi,140 - JK Iguatemi,18
+141,-23.5827091296,-46.6838868604,141 - Praça Luis Carlos Paraná,141 - Praça Luis Carlos Paraná,23
+143,-23.5841082601,-46.6779598578,143- Rua João Cachoeira,143- Rua João Cachoeira,23
+144,-23.5870546521,-46.6810655326,144 - Rua Iguatemi,144 - Rua Iguatemi,23
+145,-23.6049719309,-46.6962601886,145 - CPTM BERRINI,145 - CPTM BERRINI,11
+147,-23.5921511669,-46.6800998764,147 - Rua Min Jesuíno Cardoso II,147 - Rua Min Jesuíno Cardoso II,35
+148,-23.5716457159,-46.649879564,148 - R. Maria Figueiredo,148 - R. Maria Figueiredo,11
+149,-23.575185201,-46.6442442465,149 - Rua Afonso de Freitas,Rua Afonso de Freitas,11
+150,-23.5749909631,-46.6415215998,150 - Metrô Paraiso,150 - Metrô Paraiso,19
+151,-23.5700337707,-46.6397357204,151 – Centro Cultural SP,151 – Centro Cultural SP,23
+152,-23.5632996266,-46.6443299969,152 – Santa Madalena,152 – Santa Madalena,11
+153,-23.5604966383,-46.6422656826,153 – Monsenhor Passaláqua,153 – Monsenhor Passaláqua,11
+154,-23.557768,-46.639812,154 – R. Condessa de São Joaquim,154 – R. Condessa de São Joaquim,11
+155,-23.5626885922,-46.6469450459,155 – R. dos Belgas,155 – R. dos Belgas,11
+157,-23.5577605189,-46.6443804158,157 – Theatro Ribalta,157 – Theatro Ribalta,11
+159,-23.5578026018,-46.6497844241,159 – R. Rocha,159 – R. Rocha,11
+162,-23.5550645493,-46.6520335102,162 – Herculano de Freitas,162 – Herculano de Freitas,11
+163,-23.5530167175,-46.6510376596,163 – Paim,163 – Paim,11
+165,-23.5520481656,-46.6568015418,165 – Cemitério Consolação,165 – Cemitério Consolação,11
+167,-23.5485777016,-46.6471562051,167 – Praça Roosevelt,167 – Praça Roosevelt,11
+169,-23.5526573545,-46.6423831739,169 – Rua São Domingos,169 – Rua São Domingos,11
+172,-23.5497934689,-46.6332353979,172 – Praça da Sé,172 – Praça da Sé,11
+174,-23.5491978638,-46.6370206403,174 – Largo São Francisco,174 – Largo São Francisco,11
+175,-23.5571155527,-46.6587216176,175 – Luis Coelho,175 – Luis Coelho,19
+176,-23.545327,-46.643202,176 – R. Cel. Xavier de Toledo,176 – R. Cel. Xavier de Toledo,23
+177,-23.5428158801,-46.6395339949,177 – Av. São João,177 – Av. São João,11
+178,-23.5456630544,-46.6432462652,178 – Av. São Luís,178 – Av. São Luís,14
+181,-23.5398674287,-46.6498022181,181 – Metrô Santa Cecilia,181 – Metrô Santa Cecilia,11
+183,-23.5453248194,-46.6517183208,183 – Higienopolis,183 – Higienopolis,11
+186,-23.5488591214,-46.655346231,186 – Itambé,186 – Itambé,11
+187,-23.545606551,-46.6570562939,187 – Parque Buenos Aires,187 – Parque Buenos Aires,11
+189,-23.5706120024,-46.6904882734,189 - CEMG FARIA LIMA,189 - CEMG FARIA LIMA,23
+192,-23.5434907884,-46.6606310404,192 – Pernambuco,192 – Pernambuco,11
+194,-23.5415334087,-46.6555547196,194 – Jaguaribe,194 – Jaguaribe,11
+196,-23.5369791042,-46.6541473967,196 – Alameda Barros,196 – Alameda Barros,10
+197,-23.5390004149,-46.6579044578,197 – Albuquerque Lins,197 – Albuquerque Lins,10
+198,-23.535997,-46.65684,198 – Marechal Deodoro,198 – Marechal Deodoro,11
+199,-23.534797,-46.660245,199 – Conselheiro Brotero,199 – Conselheiro Brotero,14
+201,-23.5515095992,-46.6781700464,201 - Metro Sumaré,201 - Metro Sumaré,27
+202,-23.5550575383,-46.6742094115,202 - Arruda Alvim,202 - Arruda Alvim,23
+203,-23.5548629887,-46.6775456763,203 - Capote Valente 822,203 - Capote Valente 822,15
+204,-23.556692302,-46.6641315195,204- Consolação,204- Consolação,19
+205,-23.5580398903,-46.6661513892,205 - Alameda Itú 1579,205 - Alameda Itú 1579,11
+206,-23.5593136394,-46.6688849237,206 - Alameda Tietê,206 - Alameda Tietê,15
+207,-23.5618593839,-46.6676581144,207 - Bela Cintra,207 - Bela Cintra,15
+208,-23.561165,-46.670801,208 - Rua Dr. Melo Alves,208 - Rua Dr. Melo Alves,23
+209,-23.5651842191,-46.669195276,209 - Haddock Lobo,209 - Haddock Lobo,15
+210,-23.5575062869,-46.6756645397,210 - Capote Valente 429,210 - Capote Valente 429,11
+211,-23.5603113369,-46.6736825865,211 - Capote Valente,211 - Capote Valente,19
+212,-23.5633581561,-46.673013823,212 - R. Estados Unidos,212 - R. Estados Unidos,15
+213,-23.5650721362,-46.6724205111,213 - Guadelupe,213 - Guadelupe,15
+214,-23.5570291433,-46.6801551112,214 - João Moura,214 - João Moura,15
+215,-23.5594417332,-46.6784556406,215 - E.E. Godofredo Furtado,215 - E.E. Godofredo Furtado,15
+216,-23.5621418901,-46.6765358521,216 - João Moura 328,216 - João Moura 328,15
+217,-23.5651645971,-46.6766107744,217 - Alameda Gabriel,217 - Alameda Gabriel,19
+218,-23.5586744936,-46.6829811972,218 - Cemitério Cardeal,218 - Cemitério Cardeal,15
+219,-23.562560239,-46.6827775153,219 - Rua Joaquim Antunes,Rua Joaquim Antunes,15
+220,-23.5643368077,-46.6798554933,220 - R. dos Pinheiros,220 - R. dos Pinheiros,15
+221,-23.5664969187,-46.6799180128,221 - Sampaio Vidal 27,221 - Sampaio Vidal 27,15
+222,-23.5587392338,-46.6871313396,222 - Rua Horácio Lane,222 - Rua Horácio Lane,15
+223,-23.5620789029,-46.6871566756,223 -Fradique Coutinho,223 -Fradique Coutinho,23
+224,-23.5655318804,-46.6848831892,224 - Metrô Fradique Coutinho,224 - Metrô Fradique Coutinho,27
+225,-23.5687716946,-46.6841990408,225 - Sampaio Vidal 530,225 - Sampaio Vidal 530,15
+226,-23.5590071011,-46.6894700055,226 - Fradique Coutinho 941,226 - Fradique Coutinho 941,15
+227,-23.5610082884,-46.6908515921,227 - R. Simão Álvares,227 - R. Simão Álvares,15
+229,-23.5661229934,-46.6876470783,229 - Arthur de Azevedo,Arthur de Azevedo,11
+230,-23.5701301112,-46.6864501541,230 - Rua Mariano Correia,230 - Rua Mariano Correia,15
+231,-23.5614126775,-46.6953706304,231 - Instituto Tomie Ohtake,231 - Instituto Tomie Ohtake,11
+232,-23.5652988888,-46.6956636532,232 - Sumidouro,232 - Sumidouro,15
+233,-23.5642515753,-46.6990586763,233 - Paraopeba,233 - Paraopeba,15
+234,-23.5587771,-46.699386023,234 - Praça Roquete Pinto,234 - Praça Roquete Pinto,15
+235,-23.5602113148,-46.7008351861,235 - CETESB,235 - CETESB,17
+236,-23.5567956482,-46.702026421,236 - Praça Ernami Braga,praça ernami Braga,11
+238,-23.5553785016,-46.7054156711,238 - Avenida dos Semaneiros,238 - Avenida dos Semaneiros,15
+239,-23.5584938,-46.7067852,239 - Avenida Antônio Batuira,239 - Avenida Antônio Batuira,15
+240,-23.5541789045,-46.7079871253,240 - Praça Panamericana,240 - Praça Panamericana,23
+241,-23.556796783,-46.7109312356,241 - CPTM Cidade Universitária,241 - CPTM Cidade Universitária,23
+261,-23.5510667055,-46.7118416376,261- Praça Pero Vaz de Caminha,261- Praça Pero Vaz de Caminha,15
+262,-23.5501563899,-46.717571267,262 - Colégio Santa Cruz,262 - Colégio Santa Cruz,23
+263,-23.5470791935,-46.716293267,263 - Praça Beethoven,263 - Praça Beethoven,15
+264,-23.5435015915,-46.7256937405,264 - Parque Vila Lobos Portão 2,264 - Parque Vila Lobos Portão 2,19
+267,-23.545607836,-46.7324399933,267 - CPTM Vila Lobos Jaguaré,267 - CPTM Vila Lobos Jaguaré,23
+268,-23.5636823644,-46.6515349966,268 - Hotel Maksoud Plaza,268 - Hotel Maksoud Plaza,11
+269,-23.535868,-46.726758,269 - R. Blumenau,269 - R. Blumenau,15
+270,-23.533249,-46.731082,270 - R. Nagel,270 - R. Nagel,15
+271,-23.531196,-46.731937,271 - R. Fröben,271 - R. Fröben,15
+272,-23.6232726725,-46.670066722,272 – República do Iraque,272 – República do Iraque,20
+273,-23.529005,-46.732888,273 - R. Hayden,273 - R. Hayden,11
+274,-23.5282989,-46.737114,274 - BAUMANN,274 - BAUMANN,19
+275,-23.52751,-46.734407,275 - R. Hassib Mofarrej,275 - R. Hassib Mofarrej,27
+276,-23.524723,-46.736451,276 - R. Carneiro da Silva,276 - R. Carneiro da Silva,27
+277,-23.523347,-46.733747,277 -Carlos Weber 223,277 -Carlos Weber 223,11
+278,-23.5262598,-46.7322527,278 - R. Tripoli,278 - R. Tripoli,19
+279,-23.6017705717,-46.6940557492,279 – Hotel Transamérica Berrini,279 – Hotel Transamérica Berrini,7
+292,-23.5789116092,-46.6408569305,292 - Rua Domingos de Moraes,292 - Rua Domingos de Moraes,19
+293,-23.5808426571,-46.6377561804,293 - Metrô Ana Rosa,293 - Metrô Ana Rosa,23
+294,-23.5820193374,-46.6384688407,294 - Metrô Ana Rosa II,294 - Metrô Ana Rosa II,19
+295,-23.5844511087,-46.6364894394,295 -Vergueiro,295 -Vergueiro,23
+297,-23.5819406081,-46.6428930722,296 – Largo Ana Rosa,296 – Largo Ana Rosa,11
+298,-23.5845817,-46.6437617751,297 -SESC Vila Mariana,297 -SESC Vila Mariana,19
+299,-23.5846096542,-46.6464747604,299 - R. Áurea,299 - R. Áurea,15
+300,-23.5825927426,-46.6493501565,300 - Caravelas,300 - Caravelas,15
+301,-23.5909147225,-46.6491158964,301 - R. França Pinto,301 - R. França Pinto,15
+302,-23.589366,-46.647226,302 - Tangará,302 - Tangará,15
+303,-23.5871298486,-46.6432336771,303 - Rio Grande,303 - Rio Grande,15
+304,-23.5918790017,-46.6422240651,304 - Gandavo,304 - Gandavo,11
+305,-23.5894563364,-46.6397325082,305 - MUBA,305 - MUBA,23
+306,-23.5907259301,-46.6367804658,306 - R. Madre Cabrini,306 - R.Madre Cabrini,19
+307,-23.5898021306,-46.6350854816,307 - Metrô Vila Mariana,307 - Metrô Vila Mariana,23
+308,-23.5950450453,-46.6376374922,308 - R da cunha,308 - R da cunha,15
+310,-23.5955211363,-46.6397075663,310 - R. Cel. Lisboa,310 - R. Cel. Lisboa,19
+311,-23.5957135456,-46.6430786807,"311 - R. Diogo de Faria , 650","311 - R. Diogo de Faria , 650",18
+312,-23.595322039,-46.6488983545,312 - R. DIOGO DE FARIA,312 - R. DIOGO DE FARIA,23
+313,-23.5976149401,-46.6527798263,313 – Metrô AACD Servidor,313 – Metrô AACD Servidor,18
+314,-23.5986417397,-46.6493199938,314 - R. José Guimarães,314 - R. José Guimarães,19
+315,-23.5981107484,-46.6469924962,315 -Metrô Hospital São Paulo,315 -Metrô Hospital São Paulo,19
+316,-23.5980337587,-46.6408418883,316 - EMBAÚ,316 - EMBAÚ,19
+317,-23.5987326403,-46.6391030551,317 - R. Leonardo Nunes,317 - R. Leonardo Nunes,15
+318,-23.6001692074,-46.6624184426,318 – Gabriel Rezende Passos,318 – Gabriel Rezende Passos,15
+319,-23.6037621017,-46.6616847899,319 - Metrô Moema,319 - Metrô Moema,27
+320,-23.605971,-46.663826,320 - Jandira,320 - Jandira,19
+321,-23.603513586,-46.6676509366,321 - Gaivota,321 - Gaivota,23
+322,-23.609452587,-46.6681444401,322 - Metrô Eucaliptos,322 - Metrô Eucaliptos,27
+323,-23.6084327723,-46.6710134296,323 - Eucaliptos,323 - Eucaliptos,15
+324,-23.6053012436,-46.6706867253,324 - Canário,324 - Canário,14
+325,-23.6042556584,-46.6742727797,325 - Pintassilgo,325 - Pintassilgo,11
+326,-23.6074638826,-46.674330557,326 - Inhambú,326 - Inhambú,19
+327,-23.6116694829,-46.6718094594,327 - Arapanés,327 - Arapanés,15
+328,-23.6135042883,-46.6773097716,328 - R. Demóstenes,328 - R. Demóstenes,11
+329,-23.6080659436,-46.6779440256,329 - Bandeirantes,329 - Bandeirantes,11
+331,-23.6081511066,-46.6843444018,331 - Rua Nebrasca,331 - Rua Nebrasca,11
+332,-23.6107351221,-46.6804598847,332 - Rua Nova York,332 - Rua Nova York,11
+333,-23.6170138247,-46.6813978503,333 -R. Flórida 53,333 -R. Flórida 53,15
+334,-23.6129704331,-46.683206839,334 - R. Pe. Antônio,334 - R. Pe. Antônio,15
+335,-23.610684626,-46.6859131865,335 - R. Ribeiro do Vale,335 - R. Ribeiro do Vale,11
+336,-23.6110922048,-46.6889117358,336 - Flórida 1020,336 - Flórida 1020,11
+337,-23.6132171735,-46.6914029151,337 - Castilho,337 - Castilho,19
+338,-23.6146341562,-46.688371442,338 - RUA PITÚ,338 - RUA PITÚ,23
+339,-23.6188143995,-46.6839186757,339 - R. Min. Luiz Gallotti,339 - R. Min. Luiz Gallotti,15
+340,-23.6208075658,-46.6882010466,340 - R. Oscar Gomes Cardim II,340 - R. Oscar Gomes Cardim II,15
+341,-23.6240902349,-46.6869891386,341 - R. Coronel Conrado Siqueira,341 - R. Coronel Conrado Siqueira,15
+342,-23.6240430882,-46.6912757181,342 - R. Santo Arcádio,342 - R. Santo Arcádio,11
+343,-23.6158624744,-46.6942850462,343 - Jurubatuba,343 - Jurubatuba,15
+344,-23.6235674734,-46.7005347627,344 – ROCHAVERÁ,344 – ROCHAVERÁ,6
+345,-23.6194058975,-46.6965638091,345 - R. Henrique FIsher,345 - R. Henrique FIsher,23
+346,-23.6227705359,-46.6955795044,346 - R. Vieira da Silva,346 - R. Vieira da Silva,15
+347,-23.6268943469,-46.6875731166,347 - Metrô Brooklin,347 - Metrô Brooklin,29
+348,-23.6291995746,-46.6886410529,348 - R. João Pais,348 - R. João Pais,15
+349,-23.6272952767,-46.6920652642,349 - Cacioneiro de Évora,349 - Cacioneiro de Évora,11
+355,-23.5727122052,-46.6465303688,355 - R. Dr. Rafael de Barros,355 - R. Dr. Rafael de Barros,19
+358,-23.5516652847,-46.7225625089,358 - SHOPPING VILLA LOBOS,358 - SHOPPING VILLA LOBOS,7
+359,-23.6099798374,-46.6964118404,359 – CENU,359 – CENU,10

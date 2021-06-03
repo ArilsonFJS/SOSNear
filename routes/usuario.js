@@ -6,6 +6,11 @@ const Usuario = mongoose.model("usuarios")
 const bcrypt = require("bcryptjs")
 const passport = require('passport')
 
+const csv = require('csv-parser')
+const fs = require('fs')
+const result = [];
+
+
 function isValidCPF(cpf) {
     if (typeof cpf !== "string") {
         return false
@@ -86,7 +91,7 @@ router.post("/registro", (req, res) => {
     if (erros.length > 0) {
         res.render("usuarios/registro", { erros: erros })
     } else {
-        Usuario.find({ email: req.body.email, cpf: req.body.cpf}).then((usuario) => {
+        Usuario.find({ email: req.body.email, cpf: req.body.cpf }).then((usuario) => {
             if (usuario) {
                 req.flash("error_msg", "Já existe uma conta com esse e-mail e/ou cpf no nosso sistema")
                 res.redirect("/usuarios/registro")
@@ -141,6 +146,82 @@ router.get("/logout", (req, res) => {
     req.logout();
     req.flash("success_msg", "Deslogado com sucesso")
     res.redirect("/")
+})
+
+router.get("/covid", (req, res) => {
+    res.render("usuarios/covid")
+})
+
+router.get("/acidentes", (req, res) => {
+    res.render("usuarios/acidentes")
+})
+
+router.get("/sus", (req, res) => {
+    res.render("usuarios/sus")
+})
+
+
+//COVID
+let listaCovid = [];
+
+function lerArquivo() {
+    fs.createReadStream("files/COVID.csv")//passar o endereço do arquivo
+        .on('error', () => { })
+        .pipe(csv({}))
+        .on('data', (row) => listaCovid.push(row))
+        .on('end', () => {
+            console.log('terminou')
+        }); 
+}
+//página que carrega os dados 
+router.get('/listaCovid', (request, reponse) => {
+
+    if (listaCovid.length == 0) {
+        lerArquivo();
+    }
+    reponse.status(200).json(listaCovid);
+})
+
+
+//ACIDENTES DE TRANSITO
+let listaAcidentes = [];
+
+function lerArquivoAcidentes() {
+    fs.createReadStream("files/ACIDENTES.csv")//passar o endereço do arquivo
+        .on('error', () => { })
+        .pipe(csv({})) 
+        .on('data', (row) => listaAcidentes.push(row))
+        .on('end', () => {
+            console.log('terminou')
+        });
+}
+//página que carrega os dados
+router.get('/listaAcidentes', (request, reponse) => {
+    if (listaAcidentes.length == 0) {
+        lerArquivoAcidentes();
+    }
+    reponse.status(200).json(listaAcidentes);
+})
+
+
+//POSTOS DO SUS
+let listaSus = [];
+
+function lerArquivoSus() {
+    fs.createReadStream("files/SUS.csv")//passar o endereço do arquivo
+        .on('error', () => { })
+        .pipe(csv({}))
+        .on('data', (row) => listaSus.push(row))
+        .on('end', () => {
+            console.log('terminou')
+        });
+}
+//página que carrega os dados
+router.get('/listaSus', (request, reponse) => {
+    if (listaSus.length == 0) {
+        lerArquivoSus();
+    }
+    reponse.status(200).json(listaSus);
 })
 
 module.exports = router
