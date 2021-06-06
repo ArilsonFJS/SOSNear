@@ -179,7 +179,7 @@ function lerArquivo() {
         .on('data', (row) => listaCovid.push(row))
         .on('end', () => {
             console.log('terminou')
-        }); 
+        });
 }
 //página que carrega os dados 
 router.get('/listaCovid', (request, reponse) => {
@@ -197,7 +197,7 @@ let listaAcidentes = [];
 function lerArquivoAcidentes() {
     fs.createReadStream("files/ACIDENTES.csv")//passar o endereço do arquivo
         .on('error', () => { })
-        .pipe(csv({})) 
+        .pipe(csv({}))
         .on('data', (row) => listaAcidentes.push(row))
         .on('end', () => {
             console.log('terminou')

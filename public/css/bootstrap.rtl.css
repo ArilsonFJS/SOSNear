@@ -56,6 +56,16 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.rodape {
+  padding-top: 50px;
+  top: 500px;
+  left: 20px;
+  right: 20px;
+  position: fixed;
+  border-style: double;
+  border-color: #4169E1;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;

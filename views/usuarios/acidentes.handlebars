@@ -1,24 +1,29 @@
-<head>
-	<!--CSS do Leaflet-->
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-		crossorigin="" />
+<body class="background">
 
-	<title>Mapa</title>
-</head>
+	<head>
+		<!--CSS do Leaflet-->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+			integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+			crossorigin="" />
 
-<body>
-	<h2>Acidentes de Trânsito</h2>
+		<title>Mapa</title>
+	</head>
 
-	<div id="mapa">mapa</div>
-	<button onclick="carregarLista()">Carregar</button>
+	<body>
+		<h2 class="titulo-mapa">Acidentes de Trânsito</h2>
 
-	<!--JS do Leaflet-->
-	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-		crossorigin=""></script>
-	<script src="leaflet-heat.js"></script>
+		<div id="mapa">mapa</div>
+		<button onclick="carregarLista()" class="btn-carregar">Carregar</button>
+
+		<!--JS do Leaflet-->
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+			integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+			crossorigin=""></script>
+		<script src="leaflet-heat.js"></script>
 
 
-	<script type="text/javascript" src="/js/acidentes.js"></script>
+		<script type="text/javascript" src="/js/acidentes.js"></script>
+
+	</body>
+
 </body>

@@ -43,38 +43,64 @@
     scroll-behavior: smooth;
   }
 }
-
-#covid19 {
-  color:#055160;
-  text-align: center;
-  font-size: 140%;
-  
+.background{
+  background-image: url('/img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+ 
 }
 
-#carregar {
+.titulo-login{
+  color: #055160;
+  font-weight: bold;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.titulo-cadastro{
+  color:#055160;
+  font-weight: bold;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.titulo-mapa {
+  font-weight: bolder;
+  color:#055160;
+  text-align: center;
+  font-size: 180%;
+  margin-top: 5%;
+  margin-left: 0%;
+}
+
+.btn-carregar {
+  
   background-color: #055160;
   color:var(--bs-light);
   text-align: center;
   margin-left: 47%;
+  margin-top: 2%;
 }
 
 #mapa {
-  margin: auto;
+  border-radius: 20px;
+  margin-top: 1%;
+  margin-left: 5%;
   width: 900px;
   height: 450px;
+  left: 5%;
+  box-shadow: 5px 5px 5px gray;
+
 
 }
 
 body {
-  margin: 0;
-  font-family: var(--bs-font-sans-serif);
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  font-family: sans-serif;
+  background-color: rgba(32, 112, 122, 0.05);
+  font-weight: bold;
 }
 
 hr {
@@ -91,9 +117,10 @@ hr:not([size]) {
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.1rem;
   font-weight: 500;
   line-height: 1.2;
+  
 }
 
 h1, .h1 {
@@ -133,7 +160,8 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1rem;
+   
 }
 
 h6, .h6 {
@@ -2915,7 +2943,7 @@ textarea.form-control-lg {
 .btn {
   display: inline-block;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 0.4;
   color: #212529;
   text-align: center;
   text-decoration: none;
@@ -2927,7 +2955,7 @@ textarea.form-control-lg {
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -3850,6 +3878,7 @@ textarea.form-control-lg {
 }
 
 .nav-link {
+  white-space: nowrap;
   display: block;
   padding: 0.5rem 1rem;
   color: #f7f7f7;
@@ -3939,13 +3968,15 @@ textarea.form-control-lg {
 }
 
 .navbar {
+  border-radius: 8px;
+  padding-left: 10%;
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4256,9 +4287,28 @@ textarea.form-control-lg {
 .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
+.card-login{
+  box-shadow: 15px 15px 15px grey;
+  width: 700px;
+  left:28%;
+  top: 25%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
 
 .card {
-  position: relative;
+  box-shadow: 15px 15px 15px grey;
+  width: 700px;
+  left:28%;
+  top: 20%;
+  position: absolute;
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -6060,24 +6110,26 @@ textarea.form-control-lg {
 }
 
 
-.bg {
-  background-image: url("img/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+.logo {
+  position: absolute;
+  top: 40px;
 }
 
-#logo-topo {
-  position: absolute;
-  top: 55px;
+.postagens{
+  margin-left: 6%;
+  font-weight: bold;
+  text-shadow: 10px 10px 10px black;
+  color:black;
+  position:absolute;
+  top: 40%;
 }
-
-#logo-rodape {
-  left: 3px;
-  list-style: none;
+.msg-postagens{
+  margin-left: 6%;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px black;
+  color:black;
   position: absolute;
-  top: 0.01px;
+  top: 50%;
 }
 
 body {
@@ -6087,7 +6139,9 @@ body {
 }
 
 .text-box {
-  margin-left: 60vw;
+
+  margin-top: 5%;
+  margin-left: 70vw;
 }
 
 .btn:link,
@@ -6154,34 +6208,23 @@ body {
   }
 }
 
-
-.rodape ul {
-  list-style: none;
-}
-.rodape ul li a {
-  text-decoration: none;
-}
-
 .rodape {
-  padding-top: 50px;
-  top: 950px;
-  left: 20px;
-  right: 20px;
-  position: fixed;
-  border-style: double;
+  padding-top: 0px;
+  top: 101%;
+  left: 05px;
+  right: 10px;
+  position: absolute;
   border-color: #4169E1;
-}
-
-.rodape a {
-  font-size: small;
+  
 }
 
 .icone-login {
   height: 30px;
   padding-right: 2px;
-  padding-left: 500px;
+  padding-left: 370px;
   padding-top: 6px;
 }
+
 
 .icone-email {
   padding-left: 1040px;
@@ -6196,10 +6239,11 @@ body {
   height: 15px;
 }
 
-
-
+#link-login{
+  padding-left: 0.5%;
+}
 #link-inicio {
-  padding-left: 50rem;
+  padding-left: 20rem;
 }
 
 
