@@ -16,7 +16,6 @@ var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () {
 	if (this.readyState == 4 && this.status == 200) {
 		let listaCovid = JSON.parse(this.response);
-		alert(listaCovid.length);
 		adicionarNoMapa(listaCovid);
 	}
 }
@@ -28,7 +27,6 @@ function carregarLista() {
 
 function adicionarNoMapa(listaCovid) {
 	var heat = L.heatLayer(listaCovid, heatConfig).addTo(map);
-	alert('Lista de coordenada carregada');
 }
 
 var heatConfig = {

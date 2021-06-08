@@ -15,7 +15,6 @@ var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () {
 	if (this.readyState == 4 && this.status == 200) {
 		let listaSus = JSON.parse(this.response);
-		alert(listaSus.length);
 		adicionarNoMapa(listaSus);
 	}
 }
@@ -29,5 +28,4 @@ function adicionarNoMapa(listaSus) {
 	for (let i = 0; i < listaSus.length; i++) {
 		L.marker([listaSus[i].lat, listaSus[i].lon]).addTo(map);
 	}
-	alert('Lista de coordenada carregada');
 }
