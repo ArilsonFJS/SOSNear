@@ -6141,7 +6141,8 @@ body {
 }
 
 .text-box {
-  width: 10%;
+  width: 67%;
+  text-align: right;
   margin-top: 4%;
   
 }
