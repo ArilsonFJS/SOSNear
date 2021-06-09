@@ -26,7 +26,7 @@ function carregarLista() {
 
 var acidente = L.icon({
 	iconUrl: '../img/icone-acidentes.png',
-	iconSize: [40,40],
+	iconSize: [50,40],
 	iconAnchor: [20,30],
 	popupAnchor: [45,0]
 });
