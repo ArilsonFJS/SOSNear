@@ -14,9 +14,6 @@ const Categoria = mongoose.model("categorias");
 const usuarios = require("./routes/usuario");
 const passport = require('passport');
 
-const csv = require('csv-parser')
-const fs = require('fs')
-const result = [];
 
 require("./config/auth")(passport)
 // const bodyParser = require('body-parser') - substituido por express
@@ -39,7 +36,7 @@ app.use((req, res, next) => {
     //Variável global
     res.locals.success_msg = req.flash("success_msg")
     res.locals.error_msg = req.flash("error_msg")
-    res.locals.error = req.flash("error")
+    res.locals.error = req.flash("err")
     res.locals.user = req.user || null;
     next()
 })
@@ -55,7 +52,8 @@ app.engine('handlebars', handlebars({
         allowProtoMethodsByDefault: true,
     }
 }))
-app.set('view engine', 'handlebars')
+app.set('view engine', 'handlebars');
+
 // Mongoose
 mongoose.Promise = global.Promise
 mongoose.connect("mongodb://localhost/sosnear", {
@@ -76,7 +74,7 @@ app.use(express.static(path.join(__dirname, "public")))
 app.get('/', (req, res) => {
     Postagem.find().populate("categoria").sort({ data: "desc" }).then((postagens) => {
         res.render("index", { postagens: postagens })
-    }).catch((err) => {
+    }).catch((error) => {
         req.flash("error_msg", "Erro interno")
         res.redirect("/404")
     })
@@ -115,7 +113,7 @@ app.get('/categorias/:slug', (req, res) => {
         if (categorias) {
             Postagem.find({ categoria: categorias._id }).then((postagens) => {
                 res.render("categoria/postagens", { postagens: postagens, categorias: categorias })
-            }).catch((err) => {
+            }).catch((error) => {
                 req.flash("error_msg", "Erro interno ao carregar página da categorias")
                 res.redirect("/")
             })

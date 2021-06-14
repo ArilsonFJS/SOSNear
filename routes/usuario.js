@@ -10,6 +10,61 @@ const csv = require('csv-parser')
 const fs = require('fs')
 const result = [];
 
+//dependencias
+const http = require('http');
+const path = require('path');
+
+//app.use(parser.urlencoded({extended:false}));
+router.use(express.static(path.join(__dirname,'.')));
+
+router.get('/',(request, response) => {
+  response.sendFile(path.join(__dirname,'/covid'));
+});
+
+var covid = [];
+//le arquivo csv
+function leArquivo(){
+  fs.createReadStream('./files/brasil-obitos-2021-semana.csv')
+    .on('error',()=> {})
+    .pipe(csv())
+    .on('data',(row) => covid.push(row))
+    .on('end', () => {
+      console.log('terminou');
+    });
+}
+
+//página que carrega os dados cadaastrados
+router.get('/dadosCovid',(request, response) => {
+    if(covid.length == 0){
+      leArquivo();
+    }
+    response.status(200).json(covid);
+});
+
+
+
+
+var o = [];
+//le arquivo csv
+function leArquivoMeio(){
+  fs.createReadStream('./files/obitos_por_veiculo_de_locomocao_da_vitima_.csv')
+    .on('error',()=> {})
+    .pipe(csv())
+    .on('data',(row) => o.push(row))
+    .on('end', () => {
+      console.log('terminou');
+    });
+}
+
+//página que carrega os dados cadaastrados
+router.get('/obitoLocomocao',(request, response) => {
+    if(o.length == 0){
+      leArquivoMeio()
+    }
+    response.status(200).json(o);
+});
+
+
 
 function isValidCPF(cpf) {
     if (typeof cpf !== "string") {
