@@ -4,7 +4,7 @@
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse d-lg-flex " id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
         <li class="nav-item">
@@ -33,19 +33,19 @@
             <p> Logout </p>
           </a>
           {{else}}
-        <li class="nav-item">
-          <img class="icone-login mt-0" src="/img/icone-login.png">
-        </li>
+        <li class="nav-item ">
         <a class="nav-link" id="link-login" href="/usuarios/login">
           <h5> Login </h5>
         </a>
+          {{!-- <img class="icone-login mt-0" src="/img/icone-login.png"> --}}
+        </li>
         {{/if}}
         </li>
       </ul>
     </div>
   </div>
 </nav>
-
-<a class="logo" href="/"><img src="/img/Logo.png" width="200" height="120"></a>
-<div class="rodape"> <img src="/img/rodape.png" width="1340" height="125"></div>
+</nav>
+<a class="logo" href="/"><img src="/img/Logo.png" ></a>
+<div class="rodape"> <img src="/img/rodape.png"></div>
 

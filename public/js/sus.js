@@ -24,8 +24,16 @@ function carregarLista() {
 	xhr.send();
 }
 
+
+var sus = L.icon({
+	iconUrl: '../img/icone-sus.png',
+	iconSize: [50,50],
+	iconAnchor: [20,30],
+	popupAnchor: [45,0]
+});
+
 function adicionarNoMapa(listaSus) {
 	for (let i = 0; i < listaSus.length; i++) {
-		L.marker([listaSus[i].lat, listaSus[i].lon]).addTo(map);
+		L.marker([listaSus[i].lat, listaSus[i].lon],{icon: sus}).addTo(map);
 	}
 }

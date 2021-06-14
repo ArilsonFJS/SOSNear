@@ -24,8 +24,15 @@ function carregarLista() {
 	xhr.send();
 }
 
+var acidente = L.icon({
+	iconUrl: '../img/icone-acidentes.png',
+	iconSize: [50,40],
+	iconAnchor: [20,30],
+	popupAnchor: [45,0]
+});
+
 function adicionarNoMapa(listaAcidentes) {
 	for (let i = 0; i < listaAcidentes.length; i++) {
-		L.marker([listaAcidentes[i].lat, listaAcidentes[i].lon]).addTo(map);
+		L.marker([listaAcidentes[i].lat, listaAcidentes[i].lon],{icon: acidente}).addTo(map);
 	}
 }

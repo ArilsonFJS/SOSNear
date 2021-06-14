@@ -5,6 +5,7 @@ require("../models/Usuario")
 const Usuario = mongoose.model("usuarios")
 const bcrypt = require("bcryptjs")
 const passport = require('passport')
+const { eUsuario } = require("../helpers/eUsuario")
 
 const csv = require('csv-parser')
 const fs = require('fs')
@@ -211,15 +212,15 @@ router.get("/logout", (req, res) => {
     res.redirect("/")
 })
 
-router.get("/covid", (req, res) => {
+router.get("/covid", eUsuario, (req, res) => {
     res.render("usuarios/covid")
 })
 
-router.get("/acidentes", (req, res) => {
+router.get("/acidentes",  eUsuario,(req, res) => {
     res.render("usuarios/acidentes")
 })
 
-router.get("/sus", (req, res) => {
+router.get("/sus", eUsuario, (req, res) => {
     res.render("usuarios/sus")
 })
 
