@@ -74,7 +74,7 @@ app.use(express.static(path.join(__dirname, "public")))
 app.get('/', (req, res) => {
     Postagem.find().populate("categoria").sort({ data: "desc" }).then((postagens) => {
         res.render("index", { postagens: postagens })
-    }).catch((error) => {
+    }).catch((err) => {
         req.flash("error_msg", "Erro interno")
         res.redirect("/404")
     })
@@ -113,7 +113,7 @@ app.get('/categorias/:slug', (req, res) => {
         if (categorias) {
             Postagem.find({ categoria: categorias._id }).then((postagens) => {
                 res.render("categoria/postagens", { postagens: postagens, categorias: categorias })
-            }).catch((error) => {
+            }).catch((err) => {
                 req.flash("error_msg", "Erro interno ao carregar página da categorias")
                 res.redirect("/")
             })
@@ -126,28 +126,6 @@ app.get('/categorias/:slug', (req, res) => {
         res.redirect("/")
     })
 })
-
-
-//página que carrega os dados
-/*app.get('usuarios/listCoord', (request, reponse) =>{
-    if(listCoord == 0){
-    lerArquivo();
-    }
-    reponse.status(200).json(listCoord);
-})
-
-let listCoord = [];
-
-function lerArquivo(){
-    fs.createReadStream("files/data.csv")//passar o endereço do arquivo
-    .on('error', () =>{})
-    .pipe(csv({}))
-    .on('data',(row) => listCoord.push(row))
-    .on('end', () =>{
-        console.log('terminou')
-    });
-}*/
-
 
 app.use('/admin', admin)
 app.use("/usuarios", usuarios)
