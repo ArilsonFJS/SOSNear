@@ -1,29 +1,40 @@
-<body class="background">
+<head>
+	<!--CSS do Leaflet-->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin="" />
 
-	<head>
-		<!--CSS do Leaflet-->
-		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-			integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-			crossorigin="" />
+	<title>Mapa</title>
+</head>
 
-		<title>Mapa</title>
-	</head>
+<body>
+	<h2 class="titulo-mapa">Acidentes de Trânsito</h2>
 
-	<body>
-		<h2 class="titulo-mapa">Acidentes de Trânsito</h2>
+	<!--JS do Leaflet-->
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+	<script src="leaflet-heat.js"></script>
+	<div id="mapa">mapa</div>
+	<button onclick="carregarLista()" class="btn-carregar">Carregar</button>
 
-		<div id="mapa">mapa</div>
-		<button onclick="carregarLista()" class="btn-carregar">Carregar</button>
-
-		<!--JS do Leaflet-->
-		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-			integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-			crossorigin=""></script>
-		<script src="leaflet-heat.js"></script>
+	<script type="text/javascript" src="/js/acidentes.js"></script>
+	<hr>
 
 
-		<script type="text/javascript" src="/js/acidentes.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js" type="text/javascript"></script>
 
-	</body>
+	<div id="main">
+		<canvas id="grafico" width="800" height="600"></canvas>
+	</div>
+	<div id="line">
+		<canvas id="linha" width="1280" height="960"></canvas>
+	</div>
+	<div id="doughnut">
+		<canvas id="obitoLocomocao" width="600" height="600"></canvas>
+		<button onclick="carregarDados()">Verificar</button>
+	</div>
+
+    <script src="/js/charts.js" type="text/javascript"></script>
 
 </body>
