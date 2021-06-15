@@ -73,7 +73,7 @@ router.post("/registro", (req, res) => {
     var cpfv = req.body.cpf
 
     if (isValidCPF(cpfv) == false) {
-        erros.push({ texto: "CFP inválido" })
+        erros.push({ texto: "CPF inválido" })
     }
 
 
