@@ -1,5 +1,7 @@
 # PI - SOS Near
 
+> Status : Developing  ⚠️
+
 ### THEME: Health data systems
 
 Understanding the behavior of health-related data is critical to creating public policies related to this area. There are several sources of information with health data: Hospitalizations of the Unified Health System (SUS), traffic accidents, infections/deaths from COVID-19 and dengue. The data contained in these datasets may vary, but generally contains address information, coordinates (latitude and longitude),a category (type of disease, specialty, etc.) and some description.
