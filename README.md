@@ -1,6 +1,6 @@
 # PI - SOS Near
 
-## TEMA: Sistemas de dados da saúde
+### TEMA: Sistemas de dados da saúde
 
 Entender o comportamento de dados relacionados à saúde é fundamental para criar políticas públicas relacionadas a essa área. Existem diversas fontes de informação com dados sobre saúde: internações do Sistema Único de Saúde (SUS), acidentes de trânsito, infecções/mortes por COVID-19 e dengue. Os dados contidos nesses datasets podem variar, mas em geral contém as informações do endereço, coordenadas (latitude e longitude), uma categoria (tipo de doença, especialidade, etc) e alguma descrição.
 A proposta é desenvolver um sistema de visualização geográfica de dados relacionados à saúde usando fontes de dados conhecidas.
