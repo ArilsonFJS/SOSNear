@@ -1,27 +1,27 @@
 # PI - SOS Near
 
-### TEMA: Sistemas de dados da saúde
+### THEME: Health data systems
 
-Entender o comportamento de dados relacionados à saúde é fundamental para criar políticas públicas relacionadas a essa área. Existem diversas fontes de informação com dados sobre saúde: internações do Sistema Único de Saúde (SUS), acidentes de trânsito, infecções/mortes por COVID-19 e dengue. Os dados contidos nesses datasets podem variar, mas em geral contém as informações do endereço, coordenadas (latitude e longitude), uma categoria (tipo de doença, especialidade, etc) e alguma descrição.
-A proposta é desenvolver um sistema de visualização geográfica de dados relacionados à saúde usando fontes de dados conhecidas.
+Understanding the behavior of health-related data is critical to creating public policies related to this area. There are several sources of information with health data: Hospitalizations of the Unified Health System (SUS), traffic accidents, infections/deaths from COVID-19 and dengue. The data contained in these datasets may vary, but generally contains address information, coordinates (latitude and longitude),a category (type of disease, specialty, etc.) and some description.
+The proposal is to develop a system of geographic visualization of health-related data using known data sources.
 
-O sistema deve possuir as seguintes funcionalidades e requisitos:
+The system must have the following features and requirements:
 
-- [ ] Visualização de dados da saúde em um mapa.
+- [ ] Viewing health data on a map;
 
-- [ ] Os dados devem ser apresentados no mapa com a localização individual de cada ponto.
+- [ ] The data must be displayed on the map with the individual location of each point;
 
-- [ ] Cada ponto do mapa deve mostrar mais informações quando o usuário passar o mouse sobre ele.
+- [ ] Each point on the map should show more information when the user hovers over it;
 
-- [ ] Os dados devem ser apresentados no mapa agrupados através do uso de mapa de calor/densidade.
+- [ ] The data should be presented on the map grouped through the use of heat/density map;
 
-- [ ] O mapa deve conter filtros para selecionar dados por tipo de doença, especialidade, por região ou por data.
+- [ ] The map should contain filters to select data by disease type, specialty, region, or by date;
 
-- [ ] Gráficos com dados de saúde: por exemplo, quantidade de casos da doença/acidentes/internações por região ou por data.
+- [ ] Charts with health data: for example, number of cases of illness/accidents/hospitalizations by region or by date;
 
-- [ ] O sistema só deve ser acessado por usuários cadastrados.
+- [ ] The system should only be accessed by registered users;
 
-- [ ] Cada tipo de dataset no mapa deve possuir um ícone próprio para facilitar sua identificação.
+- [ ] Each type of dataset on the map must have its own icon to make it easier to identify;
 
 ### GRUPO
 - Arilson Silva
@@ -30,9 +30,7 @@ O sistema deve possuir as seguintes funcionalidades e requisitos:
 - Vitória Caroline
 
 ## Arquivos
-- [Instruções de uso](https://github.com/ArilsonFJS/SOSNear/blob/master/Instru%C3%A7%C3%B5es.pdf)
-- [Protótipos do sistema](https://gitlab.com/pi-usabilidade-2021/sos-near/-/blob/master/PI.pdf)
-- [Tema](https://gitlab.com/pi-usabilidade-2021/sos-near/-/blob/master/tema-objetivos.md)
+- [Instructions for use (Português)](https://github.com/ArilsonFJS/SOSNear/blob/master/Instru%C3%A7%C3%B5es.pdf)
 
 
 
