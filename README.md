@@ -23,7 +23,7 @@ The system must have the following features and requirements:
 
 - [ ] The system should only be accessed by registered users;
 
-- [ ] Each type of dataset on the map must have its own icon to make it easier to identify;
+- [ ] Each type of dataset on the map must have its own icon to make it easier to identify.
 
 ### GRUPO
 - Arilson Silva
