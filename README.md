@@ -25,7 +25,7 @@ The system must have the following features and requirements:
 
 - [ ] Each type of dataset on the map must have its own icon to make it easier to identify.
 
-### GRUPO
+### GROUP
 - Arilson Silva
 - João Henrique
 - Poliana Camila
